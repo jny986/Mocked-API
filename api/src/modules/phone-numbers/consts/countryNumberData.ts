@@ -15,7 +15,10 @@ const formats = {
     AR: { name: 'Argentina' },
     AM: { name: 'Armenia' },
     AW: { name: 'Aruba' },
-    AU: { name: 'Australia' },
+    AU: {
+        name: 'Australia',
+        format: '+61# #### ####'
+    },
     AT: { name: 'Austria' },
     AZ: { name: 'Azerbaijan' },
     BS: { name: 'Bahamas' },
@@ -23,7 +26,10 @@ const formats = {
     BD: { name: 'Bangladesh' },
     BB: { name: 'Barbados' },
     BY: { name: 'Belarus' },
-    BE: { name: 'Belgium' },
+    BE: { 
+        name: 'Belgium',
+        format: '+32 ## ## ## ##',
+    },
     BZ: { name: 'Belize' },
     BJ: { name: 'Benin' },
     BM: { name: 'Bermuda' },
@@ -40,7 +46,10 @@ const formats = {
     BI: { name: 'Burundi' },
     KH: { name: 'Cambodia' },
     CM: { name: 'Cameroon' },
-    CA: { name: 'Canada' },
+    CA: { 
+        name: 'Canada',
+        format: '+1 ### ### ####',
+    },
     CV: { name: 'Cape Verde' },
     KY: { name: 'Cayman Islands' },
     CF: { name: 'Central African Republic' },
@@ -60,7 +69,10 @@ const formats = {
     CU: { name: 'Cuba' },
     CY: { name: 'Cyprus' },
     CZ: { name: 'Czech Republic' },
-    DK: { name: 'Denmark' },
+    DK: {
+        name: 'Denmark',
+        format: '+45 ## ## ## ##',
+    },
     DJ: { name: 'Djibouti' },
     DM: { name: 'Dominica' },
     DO: { name: 'Dominican Republic' },
@@ -149,7 +161,10 @@ const formats = {
     MR: { name: 'Mauritania' },
     MU: { name: 'Mauritius' },
     YT: { name: 'Mayotte' },
-    MX: { name: 'Mexico' },
+    MX: {
+        name: 'Mexico',
+        format: '+52 ### ### ####'
+    },
     FM: { name: 'Micronesia, Federated States of' },
     MD: { name: 'Moldova, Republic of' },
     MC: { name: 'Monaco' },
@@ -164,7 +179,10 @@ const formats = {
     NL: { name: 'Netherlands' },
     AN: { name: 'Netherlands Antilles' },
     NC: { name: 'New Caledonia' },
-    NZ: { name: 'New Zealand' },
+    NZ: { 
+        name: 'New Zealand',
+        format: '+64 # ### ####'
+    },
     NI: { name: 'Nicaragua' },
     NE: { name: 'Niger' },
     NG: { name: 'Nigeria' },
